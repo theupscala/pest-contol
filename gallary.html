@@ -10,23 +10,27 @@
 </head>
 <body>
 
-     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="public/5_6181728755342383529_page-0001.jpg" alt="Gemac Facilities LLP Logo">
-                <div class="logo-text">
-                    
-                </div>
-            </div>
-            <div class="nav-links">
-                <a href="index.html" >Home</a>
-                <a href="about.html">About Us</a>
-                <a href="Services.html">Services</a>
-                <a href="gallary.html" class="active">Gallery  </a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
+   <nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <img src="public/5_6181728755342383529_page-0001.jpg" alt="Gemac Facilities LLP Logo">
+    </div>
+
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="gallary.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
 
 
 
